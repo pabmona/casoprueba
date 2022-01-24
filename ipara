@@ -1,0 +1,37 @@
+PARAmeters
+Lx = 1.200000e-03		!Longitudes
+xp = 1.200000e-03		!Longitud pequeña
+Ly = 5.000000e-04 
+a0 = 1.988000e-04 		!Coeficientes Termoelemento
+a1 = 3.530000e-07 
+a2 = 7.521000e-10 
+g0 = 1.096000e+05 
+g1 = -5.590000e+02 
+g2 = 2.498000e+00 
+k0 = 1.663000e+00 
+k1 = -3.580000e-03 
+k2 = 3.195000e-05 
+Th = 5.000000e+01 		!Temperatura Foco Caliente
+Tc = -3.070000e+01		!Temperatura Foco Frío
+tf = 2.000000e+01 		!Temperatura de Referencia
+tx = 0.000000e+00 
+mu = 1.678600e+10 		!Parámetros de Termoelemento
+lb = 6.714300e+10 
+aT = 1.680000e-05 
+np = 1.249000e+02		!Instantes de tiempo a calcular
+rh = 7.530000e+03 		!Densidad Termoelemento
+cp = 5.440000e+02 		!Capacidad calorífica termoelemento
+tl = 1.000000e-16 		!Tolerancia
+Al = 6.600000e-04 		!Longitud Alumina
+Co = 4.000000e-04		!Longitud Cobre
+S1 = 4.000000e-05		!Longitud Estaño externo
+S2 = 6.000000e-05		!Longitud Estaño interno
+Lr = 1.000000e-04		!Longitud de un reborde
+m1 = 4					!Elementos por lado
+m2 = 4
+m3 = 2
+my = 2
+nA = 2					!Elementos en z Alumina
+nS = 2					!Elementos en z Estaño
+nC = 2					!Elementos en z Cobre
+ 

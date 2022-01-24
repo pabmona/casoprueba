@@ -1,0 +1,42 @@
+BATCh
+	LOOP,iter,10
+	  	TOL,,tl
+	  	COMM,iter
+	  	UTANg,,1
+	NEXT,iter
+END
+
+BATCh
+  dt,,dc
+  TRANs,NEWMark 1 1.5
+  LOOP,,5000
+    TIME,,fc
+	LOOP,iter,5
+	  TOL,,tl
+	  COMM,iter
+	  UTANg,,1
+	NEXT,iter 
+	tres
+  NEXT
+END
+
+BATCh
+  DT,,0.01
+  AUTO,TIME,4,9,5
+  AUTO,DT,0.01,10
+  TRANs,NEWMark 1 1.5
+	loop,,50
+    	TIME,,f2
+		LOOP,iter,5
+	  		TOL,,tl
+	  		COMM,iter
+	  		UTANg,,1
+		NEXT,iter
+		tres
+  	NEXT
+tres,output
+END
+
+
+
+

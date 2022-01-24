@@ -1,0 +1,346 @@
+BLOCk						! Alumina Izda
+  CARTesians m1 my nA 0 0 4 12
+    1 -Lx 		0 	-Al-S1-Co-S2-Lz/2
+	2 -L1-Lr	0 	-Al-S1-Co-S2-Lz/2
+    3 -L1-Lr	Ly 		-Al-S1-Co-S2-Lz/2
+	4 -Lx 		Ly 		-Al-S1-Co-S2-Lz/2
+    5 -Lx 		0 	-S1-Co-S2-Lz/2
+	6 -L1-Lr	0 	-S1-Co-S2-Lz/2
+    7 -L1-Lr	Ly 		-S1-Co-S2-Lz/2
+	8 -Lx 		Ly 		-S1-Co-S2-Lz/2
+
+BLOCk						! Alumina Reborde (TL)
+  CARTesians 2 my nA 0 0 4 12
+    1 -L1-Lr 		0 	-Al-S1-Co-S2-Lz/2
+	2 -L1			0 	-Al-S1-Co-S2-Lz/2
+    3 -L1			Ly 		-Al-S1-Co-S2-Lz/2
+	4 -L1-Lr 		Ly 		-Al-S1-Co-S2-Lz/2
+    5 -L1-Lr 		0 	-S1-Co-S2-Lz/2
+	6 -L1			0 	-S1-Co-S2-Lz/2
+    7 -L1			Ly 		-S1-Co-S2-Lz/2
+	8 -L1-Lr 		Ly 		-S1-Co-S2-Lz/2
+
+BLOCk						! Alumina Centro
+  CARTesians m2 my nA 0 0 4 12
+    1 -L1 		0 	-Al-S1-Co-S2-Lz/2
+	2 L1		0 	-Al-S1-Co-S2-Lz/2
+    3 L1		Ly 		-Al-S1-Co-S2-Lz/2
+	4 -L1 		Ly 		-Al-S1-Co-S2-Lz/2
+    5 -L1 		0 	-S1-Co-S2-Lz/2
+	6 L1		0 	-S1-Co-S2-Lz/2
+    7 L1		Ly 		-S1-Co-S2-Lz/2
+	8 -L1 		Ly 		-S1-Co-S2-Lz/2
+
+BLOCk						! Alumina Reborde (TL)
+  CARTesians 2 my nA 0 0 4 12
+    1 L1 		0 	-Al-S1-Co-S2-Lz/2
+	2 L1+Lr		0 	-Al-S1-Co-S2-Lz/2
+    3 L1+Lr		Ly 		-Al-S1-Co-S2-Lz/2
+	4 L1 		Ly 		-Al-S1-Co-S2-Lz/2
+    5 L1 		0 	-S1-Co-S2-Lz/2
+	6 L1+Lr		0 	-S1-Co-S2-Lz/2
+    7 L1+Lr		Ly 		-S1-Co-S2-Lz/2
+	8 L1 		Ly 		-S1-Co-S2-Lz/2
+
+BLOCk						! Alumina Dcha
+  CARTesians m3 my nA 0 0 4 12
+    1 L1+Lr 	0 	-Al-S1-Co-S2-Lz/2
+	2 xp		0 	-Al-S1-Co-S2-Lz/2
+    3 xp		Ly 		-Al-S1-Co-S2-Lz/2
+	4 L1+Lr 	Ly 		-Al-S1-Co-S2-Lz/2
+    5 L1+Lr 	0 	-S1-Co-S2-Lz/2
+	6 xp		0 	-S1-Co-S2-Lz/2
+    7 xp		Ly 		-S1-Co-S2-Lz/2
+	8 L1+Lr 	Ly 		-S1-Co-S2-Lz/2
+
+BLOCk						! Estaño externo Izda
+  CARTesians m1 my nS 0 0 2 12
+    1 -Lx	 	0 	-S1-Co-S2-Lz/2
+	2 -L1-Lr	0 	-S1-Co-S2-Lz/2
+    3 -L1-Lr	Ly 		-S1-Co-S2-Lz/2
+	4 -Lx	 	Ly 		-S1-Co-S2-Lz/2
+    5 -Lx		0 	-Co-S2-Lz/2
+	6 -L1-Lr	0 	-Co-S2-Lz/2
+    7 -L1-Lr	Ly 		-Co-S2-Lz/2
+	8 -Lx	 	Ly 		-Co-S2-Lz/2
+
+BLOCk						! Estaño externo Reborde (TL)
+  CARTesians 2 my nS 0 0 2 12
+    1 -L1-Lr 		0 	-S1-Co-S2-Lz/2
+	2 -L1			0 	-S1-Co-S2-Lz/2
+    3 -L1			Ly 		-S1-Co-S2-Lz/2
+	4 -L1-Lr 		Ly 		-S1-Co-S2-Lz/2
+    5 -L1-Lr 		0 	-Co-S2-Lz/2
+	6 -L1			0 	-Co-S2-Lz/2
+    7 -L1			Ly 		-Co-S2-Lz/2
+	8 -L1-Lr 		Ly 		-Co-S2-Lz/2
+
+BLOCk						! Estaño externo Centro
+  CARTesians m2 my nS 0 0 2 12
+    1 -L1 		0 	-S1-Co-S2-Lz/2
+	2 L1		0 	-S1-Co-S2-Lz/2
+    3 L1		Ly 		-S1-Co-S2-Lz/2
+	4 -L1 		Ly 		-S1-Co-S2-Lz/2
+    5 -L1 		0 	-Co-S2-Lz/2
+	6 L1		0 	-Co-S2-Lz/2
+    7 L1		Ly 		-Co-S2-Lz/2
+	8 -L1 		Ly 		-Co-S2-Lz/2
+
+BLOCk						! Estaño externo Reborde (TL)
+  CARTesians 2 my nS 0 0 2 12
+    1 L1 		0 	-S1-Co-S2-Lz/2
+	2 L1+Lr		0 	-S1-Co-S2-Lz/2
+    3 L1+Lr		Ly 		-S1-Co-S2-Lz/2
+	4 L1 		Ly 		-S1-Co-S2-Lz/2
+    5 L1 		0 	-Co-S2-Lz/2
+	6 L1+Lr		0 	-Co-S2-Lz/2
+    7 L1+Lr		Ly 		-Co-S2-Lz/2
+	8 L1 		Ly 		-Co-S2-Lz/2
+
+BLOCk						! Cobre Izda
+  CARTesians m1 my nC 0 0 3 12
+    1 -Lx	 	0 	-Co-S2-Lz/2
+	2 -L1-Lr	0 	-Co-S2-Lz/2
+    3 -L1-Lr	Ly 		-Co-S2-Lz/2
+	4 -Lx	 	Ly 		-Co-S2-Lz/2
+    5 -Lx	 	0 	-S2-Lz/2
+	6 -L1-Lr	0 	-S2-Lz/2
+    7 -L1-Lr	Ly 		-S2-Lz/2
+	8 -Lx	 	Ly 		-S2-Lz/2
+
+BLOCk						! Cobre Reborde (TL)
+  CARTesians 2 my nC 0 0 3 12
+    1 -L1-Lr	0 	-Co-S2-Lz/2
+	2 -L1		0 	-Co-S2-Lz/2
+    3 -L1		Ly 		-Co-S2-Lz/2
+	4 -L1-Lr	Ly 		-Co-S2-Lz/2
+    5 -L1-Lr 	0 	-S2-Lz/2
+	6 -L1		0 	-S2-Lz/2
+    7 -L1		Ly 		-S2-Lz/2
+	8 -L1-Lr	Ly 		-S2-Lz/2
+
+BLOCk						! Cobre Centro
+  CARTesians m2 my nC 0 0 3 12
+    1 -L1 		0 	-Co-S2-Lz/2
+	2 L1		0 	-Co-S2-Lz/2
+    3 L1		Ly 		-Co-S2-Lz/2
+	4 -L1 		Ly 		-Co-S2-Lz/2
+    5 -L1 		0 	-S2-Lz/2
+	6 L1		0 	-S2-Lz/2
+    7 L1		Ly 		-S2-Lz/2
+	8 -L1 		Ly 		-S2-Lz/2
+
+BLOCk						! Estaño interno Reborde (TL)
+  CARTesians 2 my nS 0 0 2 12
+    1 -L1-Lr 		0 	-S2-Lz/2
+	2 -L1			0 	-S2-Lz/2
+    3 -L1			Ly 		-S2-Lz/2
+	4 -L1-Lr 		Ly 		-S2-Lz/2
+    5 -L1-Lr 		0 	-Lz/2
+	6 -L1			0 	-Lz/2
+    7 -L1			Ly 		-Lz/2
+	8 -L1-Lr 		Ly 		-Lz/2
+
+BLOCk						! Estaño interno Centro
+  CARTesians m2 my nS 0 0 2 12
+    1 -L1 		0 	-S2-Lz/2
+	2 L1		0 	-S2-Lz/2
+    3 L1		Ly 		-S2-Lz/2
+	4 -L1 		Ly 		-S2-Lz/2
+    5 -L1 		0 	-Lz/2
+	6 L1		0 	-Lz/2
+    7 L1		Ly 		-Lz/2
+	8 -L1 		Ly 		-Lz/2
+
+BLOCk						! Estaño interno Reborde (TL)
+  CARTesians 2 my nS 0 0 2 12
+    1 L1 		0 	-S2-Lz/2
+	2 L1+Lr		0 	-S2-Lz/2
+    3 L1+Lr		Ly 		-S2-Lz/2
+	4 L1 		Ly 		-S2-Lz/2
+    5 L1 		0 	-Lz/2
+	6 L1+Lr		0 	-Lz/2
+    7 L1+Lr		Ly 		-Lz/2
+	8 L1 		Ly 		-Lz/2
+
+BLOCk						! Termoelemento Centro
+  CARTesians m2 my nT 0 0 1 12
+	1 -L1 		0 	-Lz/2
+	2 L1		0 	-Lz/2
+	3 L1		Ly 	-Lz/2
+	4 -L1 		Ly 	-Lz/2
+	5 -L3 		0 	Lz/2
+	6 L3		0 	Lz/2
+	7 L3		Ly 	Lz/2
+	8 -L3 		Ly 	Lz/2
+	17 -L2 		0 	0
+	18 L2		0 	0
+	19 L2		Ly 	0
+	20 -L2 		Ly 	0
+
+BLOCk						! Estaño interno Reborde (TL)
+  CARTesians 2 my nS 0 0 2 12
+    1 -L3-Lr 		0 	Lz/2
+	2 -L3			0 	Lz/2
+    3 -L3			Ly 		Lz/2
+	4 -L3-Lr 		Ly 		Lz/2
+    5 -L3-Lr 		0 	S2+Lz/2
+	6 -L3			0 	S2+Lz/2
+    7 -L3			Ly 		S2+Lz/2
+	8 -L3-Lr 		Ly 		S2+Lz/2
+
+BLOCk						! Estaño interno Centro
+  CARTesians m2 my nS 0 0 2 12
+    1 -L3 		0 	Lz/2
+	2 L3		0 	Lz/2
+    3 L3		Ly 		Lz/2
+	4 -L3 		Ly 		Lz/2
+    5 -L3 		0 	S2+Lz/2
+	6 L3		0 	S2+Lz/2
+    7 L3		Ly 		S2+Lz/2
+	8 -L3 		Ly 		S2+Lz/2
+
+BLOCk						! Estaño interno Reborde (TL)
+  CARTesians 2 my nS 0 0 2 12
+    1 L3 		0 	Lz/2
+	2 L3+Lr		0 	Lz/2
+    3 L3+Lr		Ly 		Lz/2
+	4 L3 		Ly 		Lz/2
+    5 L3 		0 	S2+Lz/2
+	6 L3+Lr		0 	S2+Lz/2
+    7 L3+Lr		Ly 		S2+Lz/2
+	8 L3 		Ly 		S2+Lz/2
+
+BLOCk						! Cobre Centro
+  CARTesians m2 my nC 0 0 3 12
+    1 -L3 		0 	S2+Lz/2
+	2 L3		0 	S2+Lz/2
+    3 L3		Ly 		S2+Lz/2
+	4 -L3 		Ly 		S2+Lz/2
+    5 -L3 		0 	Co+S2+Lz/2
+	6 L3		0 	Co+S2+Lz/2
+    7 L3		Ly 		Co+S2+Lz/2
+	8 -L3 		Ly 		Co+S2+Lz/2
+
+BLOCk						! Cobre Reborde (TL)
+  CARTesians 2 my nC 0 0 3 12
+    1 L3 		0 	S2+Lz/2
+	2 L3+Lr		0 	S2+Lz/2
+    3 L3+Lr		Ly 		S2+Lz/2
+	4 L3 		Ly 		S2+Lz/2
+    5 L3 		0 	Co+S2+Lz/2
+	6 L3+Lr		0 	Co+S2+Lz/2
+    7 L3+Lr		Ly 		Co+S2+Lz/2
+	8 L3 		Ly 		Co+S2+Lz/2
+
+BLOCk						! Cobre Dcha
+  CARTesians m1 my nC 0 0 3 12
+    1 L3+Lr 	0 	S2+Lz/2
+	2 Lx		0 	S2+Lz/2
+    3 Lx		Ly 		S2+Lz/2
+	4 L3+Lr 	Ly 		S2+Lz/2
+    5 L3+Lr 	0 	Co+S2+Lz/2
+	6 Lx		0 	Co+S2+Lz/2
+    7 Lx		Ly 		Co+S2+Lz/2
+	8 L3+Lr 	Ly 		Co+S2+Lz/2
+
+BLOCk						! Estaño externo Reborde (TL)
+  CARTesians 2 my nS 0 0 2 12
+    1 -L3-Lr 		0 	Co+S2+Lz/2
+	2 -L3			0 	Co+S2+Lz/2
+    3 -L3			Ly 		Co+S2+Lz/2
+	4 -L3-Lr 		Ly 		Co+S2+Lz/2
+    5 -L3-Lr 		0 	S1+Co+S2+Lz/2
+	6 -L3			0 	S1+Co+S2+Lz/2
+    7 -L3			Ly 		S1+Co+S2+Lz/2
+	8 -L3-Lr 		Ly 		S1+Co+S2+Lz/2
+
+BLOCk						! Estaño externo Centro
+  CARTesians m2 my nS 0 0 2 12
+    1 -L3 		0 	Co+S2+Lz/2
+	2 L3		0 	Co+S2+Lz/2
+    3 L3		Ly 		Co+S2+Lz/2
+	4 -L3 		Ly 		Co+S2+Lz/2
+    5 -L3 		0 	S1+Co+S2+Lz/2
+	6 L3		0 	S1+Co+S2+Lz/2
+    7 L3		Ly 		S1+Co+S2+Lz/2
+	8 -L3 		Ly 		S1+Co+S2+Lz/2
+
+BLOCk						! Estaño externo Reborde (TL)
+  CARTesians 2 my nS 0 0 2 12
+    1 L3 		0 	Co+S2+Lz/2
+	2 L3+Lr		0 	Co+S2+Lz/2
+    3 L3+Lr		Ly 		Co+S2+Lz/2
+	4 L3 		Ly 		Co+S2+Lz/2
+    5 L3 		0 	S1+Co+S2+Lz/2
+	6 L3+Lr		0 	S1+Co+S2+Lz/2
+    7 L3+Lr		Ly 		S1+Co+S2+Lz/2
+	8 L3 		Ly 		S1+Co+S2+Lz/2
+
+BLOCk						! Estaño externo Derecha
+  CARTesians m1 my nS 0 0 2 12
+    1 L3+Lr 	0 	Co+S2+Lz/2
+	2 Lx		0 	Co+S2+Lz/2
+    3 Lx		Ly 		Co+S2+Lz/2
+	4 L3+Lr 	Ly 		Co+S2+Lz/2
+    5 L3+Lr 	0 	S1+Co+S2+Lz/2
+	6 Lx		0 	S1+Co+S2+Lz/2
+    7 Lx		Ly 		S1+Co+S2+Lz/2
+	8 L3+Lr 	Ly 		S1+Co+S2+Lz/2
+
+BLOCk						! Alumina Izda
+  CARTesians m3 my nA 0 0 4 12
+    1 -xp 		0 	S1+Co+S2+Lz/2
+	2 -L3-Lr	0 	S1+Co+S2+Lz/2
+    3 -L3-Lr	Ly 		S1+Co+S2+Lz/2
+	4 -xp 		Ly 		S1+Co+S2+Lz/2
+    5 -xp 		0 	Al+S1+Co+S2+Lz/2
+	6 -L3-Lr	0 	Al+S1+Co+S2+Lz/2
+    7 -L3-Lr	Ly 		Al+S1+Co+S2+Lz/2
+	8 -xp 		Ly 		Al+S1+Co+S2+Lz/2
+
+BLOCk						! Alumina Reborde (TL)
+  CARTesians 2 my nA 0 0 4 12
+    1 -L3-Lr 		0 	S1+Co+S2+Lz/2
+	2 -L3			0 	S1+Co+S2+Lz/2
+    3 -L3			Ly 		S1+Co+S2+Lz/2
+	4 -L3-Lr 		Ly 		S1+Co+S2+Lz/2
+    5 -L3-Lr 		0 	Al+S1+Co+S2+Lz/2
+	6 -L3			0 	Al+S1+Co+S2+Lz/2
+    7 -L3			Ly 		Al+S1+Co+S2+Lz/2
+	8 -L3-Lr 		Ly 		Al+S1+Co+S2+Lz/2
+
+BLOCk						! Alumina Centro
+  CARTesians m2 my nA 0 0 4 12
+    1 -L3 		0 	S1+Co+S2+Lz/2
+	2 L3		0 	S1+Co+S2+Lz/2
+    3 L3		Ly 		S1+Co+S2+Lz/2
+	4 -L3 		Ly 		S1+Co+S2+Lz/2
+    5 -L3 		0 	Al+S1+Co+S2+Lz/2
+	6 L3		0 	Al+S1+Co+S2+Lz/2
+    7 L3		Ly 		Al+S1+Co+S2+Lz/2
+	8 -L3 		Ly 		Al+S1+Co+S2+Lz/2
+
+BLOCk						! Alumina Reborde (TL)
+  CARTesians 2 my nA 0 0 4 12
+    1 L3 		0 	S1+Co+S2+Lz/2
+	2 L3+Lr		0 	S1+Co+S2+Lz/2
+    3 L3+Lr		Ly 		S1+Co+S2+Lz/2
+	4 L3 		Ly 		S1+Co+S2+Lz/2
+    5 L3 		0 	Al+S1+Co+S2+Lz/2
+	6 L3+Lr		0 	Al+S1+Co+S2+Lz/2
+    7 L3+Lr		Ly 		Al+S1+Co+S2+Lz/2
+	8 L3 		Ly 		Al+S1+Co+S2+Lz/2
+
+BLOCk						! Alumina Dcha
+  CARTesians m1 my nA 0 0 4 12
+    1 L3+Lr 	0 	S1+Co+S2+Lz/2
+	2 Lx		0 	S1+Co+S2+Lz/2
+    3 Lx		Ly 		S1+Co+S2+Lz/2
+	4 L3+Lr 	Ly 		S1+Co+S2+Lz/2
+    5 L3+Lr 	0 	Al+S1+Co+S2+Lz/2
+	6 Lx		0 	Al+S1+Co+S2+Lz/2
+    7 Lx		Ly 		Al+S1+Co+S2+Lz/2
+	8 L3+Lr 	Ly 		Al+S1+Co+S2+Lz/2
+
+

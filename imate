@@ -1,0 +1,97 @@
+MATErial 1 ! Thermoelement p-type
+ user 9,0,1,2,3,4,5,0
+  mu,mu              
+  lamb,lb              
+  aphT,aT              
+  kpp0,k0           
+  kpp1,k1              
+  kpp2,k2             
+  gmm0,g0             
+  gmm1,g1            
+  gmm2,g2             
+  aph0,a0             
+  aph1,a1           
+  aph2,a2
+  rhom,rh             
+  cc,cp                               
+  rlxt,tx  
+  tref,tf
+
+MATErial 2 ! Tin-lead
+ user 9,0,1,2,3,4,5,0
+  mu,1.6799e10              
+  lamb,3.2475e10              
+  aphT,27e-6              
+  kpp0,48           
+  kpp1,0              
+  kpp2,0             
+  gmm0,4.716981e+06             
+  gmm1,0.            
+  gmm2,0.             
+  aph0,0.             
+  aph1,0.           
+  aph2,0.
+  rhom,7310           
+  cc,226                             
+  rlxt,0.  
+  tref,tf
+
+MATErial 3 ! Copper
+ user 9,0,1,2,3,4,5,0
+  mu,4.3893e10             
+  lamb,7.1615e10              
+  aphT,17e-6              
+  kpp0,386          
+  kpp1,0              
+  kpp2,0             
+  gmm0,581e5        
+  gmm1,0.            
+  gmm2,0.             
+  aph0,0.             
+  aph1,0.           
+  aph2,0.
+  rhom,8960  !RRR           
+  cc,385    !RRR                           
+  rlxt,0.  
+  tref,tf
+
+MATErial 4	!Al2O3
+ USER 9,0,1,2,3,4,0,0          
+  mu,1.5079e11               
+  lamb,1.6336e11             
+  aphT,5e-6              
+  kpp0,3.53e1           
+  kpp1,0.              
+  kpp2,0.              
+  gmm0,0.             
+  gmm1,0.             
+  gmm2,0.              
+  aph0,0.             
+  aph1,0.            
+  aph2,0.             
+  rhom,3570             
+  cc,837                
+  rlxt, 0.  
+  tref,25
+  galv,0.
+  nern,0.
+  righ,0.
+  hall,0.
+  jBx,0.
+  jBy,0.
+  jBz,0.
+  streng,330e6
+
+PARAmeter
+ jc = jz/(Co*2*Ly)  !jc = It/(Cu*z1)
+
+  MATErial 5 ! Aplicaci�n de corriente: entra
+   user,4,0,0,0,0,0,5,0
+    tcu,0
+    tcv,0
+    tcw,0
+    qc,0
+    jc,-jc  
+	nst,1
+	tin,it
+	tfin,ft

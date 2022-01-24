@@ -1,0 +1,152 @@
+Parameters
+Lx = 1.200000e-03		!Longitudes
+xp = 1.200000e-03		!Longitud pequeña
+Ly = 5.000000e-04
+a0 = 1.988000e-04 		!Coeficientes Termoelemento
+a1 = 3.530000e-07
+a2 = 7.521000e-10
+g0 = 1.096000e+05
+g1 = -5.590000e+02
+g2 = 2.498000e+00
+k0 = 1.663000e+00
+k1 = -3.580000e-03
+k2 = 3.195000e-05
+Th = 5.000000e+01 		!Temperatura Foco Caliente
+Tc = -3.070000e+01		!Temperatura Foco Frío
+tf = 2.000000e+01 		!Temperatura de Referencia
+tx = 0.000000e+00
+mu = 1.678600e+10 		!Parámetros de Termoelemento
+lb = 6.714300e+10
+aT = 1.680000e-05
+np = 1.249000e+02		!Instantes de tiempo a calcular
+rh = 7.530000e+03 		!Densidad Termoelemento
+cp = 5.440000e+02 		!Capacidad calorífica termoelemento
+tl = 1.000000e-16 		!Tolerancia
+Al = 6.600000e-04 		!Longitud Alumina
+Co = 4.000000e-04		!Longitud Cobre
+S1 = 4.000000e-05		!Longitud Estaño externo
+S2 = 6.000000e-05		!Longitud Estaño interno
+Lr = 1.000000e-04		!Longitud de un reborde
+m1 = 4					!Elementos por lado
+m2 = 4
+m3 = 2
+my = 2
+nA = 2					!Elementos en z Alumina
+nS = 2					!Elementos en z Estaño
+nC = 2					!Elementos en z Cobre
+ 
+Parameters
+dc = 1.000000e-01
+fc = 1.108000e+01
+ft = 6.200000e+00
+it = 1.000000e-01
+f2 = 6.110000e+01
+ 
+Parameters
+jz = 8.100259e-01
+L1 = 5.000000e-04
+L2 = 5.000000e-04
+L3 = 5.000000e-04
+nf = 1203
+nT = 44
+ 
+Parameters
+Lz = 0.0065761
+ 
+MATErial       1
+ user   9   0   1   2   3   4   5   0
+    mu,mu
+    lamb,lb
+    aphT,aT
+    kpp0,k0
+    kpp1,k1
+    kpp2,k2
+    gmm0,g0
+    gmm1,g1
+    gmm2,g2
+    aph0,a0
+    aph1,a1
+    aph2,a2
+    rhom,rh
+    cc,cp
+    rlxt,tx
+    tref,tf
+     
+MATErial       2
+ user   9   0   1   2   3   4   5   0
+    mu,1.6799e10
+    lamb,3.2475e10
+    aphT,27e-6
+    kpp0,48
+    kpp1,0
+    kpp2,0
+    gmm0,4.716981e+06
+    gmm1,0.
+    gmm2,0.
+    aph0,0.
+    aph1,0.
+    aph2,0.
+    rhom,7310
+    cc,226
+    rlxt,0.
+    tref,tf
+     
+MATErial       3
+ user   9   0   1   2   3   4   5   0
+    mu,4.3893e10
+    lamb,7.1615e10
+    aphT,17e-6
+    kpp0,386
+    kpp1,0
+    kpp2,0
+    gmm0,581e5
+    gmm1,0.
+    gmm2,0.
+    aph0,0.
+    aph1,0.
+    aph2,0.
+    rhom,8960
+    cc,385
+    rlxt,0.
+    tref,tf
+     
+MATErial       4
+ user   9   0   1   2   3   4   0   0
+    mu,1.5079e11
+    lamb,1.6336e11
+    aphT,5e-6
+    kpp0,3.53e1
+    kpp1,0.
+    kpp2,0.
+    gmm0,0.
+    gmm1,0.
+    gmm2,0.
+    aph0,0.
+    aph1,0.
+    aph2,0.
+    rhom,3570
+    cc,837
+    rlxt,0.
+    tref,25
+    galv,0.
+    nern,0.
+    righ,0.
+    hall,0.
+    jBx,0.
+    jBy,0.
+    jBz,0.
+    streng,330e6
+     
+Parameters
+ jc = jz/(Co*2*Ly)  !jc = It/(Cu*z1)
+ 
+MATErial       5
+ user   4   0   0   0   0   0   5   0
+    tcu,0
+    tcv,0
+    tcw,0
+    qc,0
+    jc,-jc
+    nst,1
+    tin,it
+    tfin,ft

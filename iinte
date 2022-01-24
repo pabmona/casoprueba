@@ -1,0 +1,7 @@
+BLOCk						! Elemento superficie para imponer intensidad (entra I)
+  CARTesians my nC 0 0 5 0 9  
+  1 -Lx  0 	-Lz/2-S2
+  2 -Lx  Ly 	-Lz/2-S2
+  3 -Lx  Ly 	-Lz/2-S2-Co
+  4 -Lx  0 	-Lz/2-S2-Co
+

@@ -1,0 +1,10 @@
+EBOUndary
+ 3 Lz/2+S1+Co+S2+Al 0 0 1 1 0 0		! Alúmina superior Temperatura Foco Caliente y z
+ 3 -Al-S1-Co-S2-Lz/2 0 0 1 0 0 0	! Alúmina inferior reestricción en z.
+ 1 -Lx 		1 0 0 0 0 0				! Parte izquierda, simetría
+ 1 Lx 		1 0 0 0 1 0				! Parte derecha, simetría
+ 2 0		0 1 0 0 0 0				! Plano medio, simetría
+ 
+EDISplacement
+ 3 Lz/2+S1+Co+S2+Al 0 0 0 Th 0 0	!Alúmina superior
+
